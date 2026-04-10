@@ -15,7 +15,7 @@ const categories = [
   { id: "biologie", name: "Biologie", data: biologieData, icon: "🧬" },
   { id: "technologie", name: "Technologie", data: technologieData, icon: "💻" },
   { id: "geografie", name: "Geografie", data: geografieData, icon: "🗺️" },
-  { id: "logika", name: "Logika", data: logikaData, icon: "🧩" }
+  { id: "logika", name: "Logika", data: logikaData, icon: "🧩" },
 ];
 
 export default function App() {
@@ -29,6 +29,11 @@ export default function App() {
   const [highScore, setHighScore] = useState(0);
   const [isAnswered, setIsAnswered] = useState(false);
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
+
+  // index pro carousel
+  const [currentCategoryIndex, setCurrentCategoryIndex] = useState(0);
+  // směr animace: "none" | "left" | "right"
+  const [slideDirection, setSlideDirection] = useState("none");
 
   const getCookie = (name) => {
     const value = `; ${document.cookie}`;
@@ -101,7 +106,9 @@ export default function App() {
         if (cookieConsent && newScore > highScore) {
           setHighScore(newScore);
           const cookieName = `hs_${selectedCategory.id}_${selectedDifficulty}`;
-          document.cookie = `${cookieName}=${newScore}; path=/; max-age=${60 * 60 * 24 * 30}; SameSite=Strict`;
+          document.cookie = `${cookieName}=${newScore}; path=/; max-age=${
+            60 * 60 * 24 * 30
+          }; SameSite=Strict`;
         }
       }
     }, 1500);
@@ -122,25 +129,67 @@ export default function App() {
     }
   };
 
+  const toggleTheme = () => {
+    const body = document.body;
+    const current = body.getAttribute("data-theme") || "light";
+    const next = current === "light" ? "dark" : "light";
+    body.setAttribute("data-theme", next);
+  };
+
+  const prevIndex =
+    (currentCategoryIndex - 1 + categories.length) % categories.length;
+  const nextIndex = (currentCategoryIndex + 1) % categories.length;
+
+  const goPrev = () => {
+    setSlideDirection("left");
+    setCurrentCategoryIndex((prev) =>
+      prev > 0 ? prev - 1 : categories.length - 1,
+    );
+    setTimeout(() => setSlideDirection("none"), 250);
+  };
+
+  const goNext = () => {
+    setSlideDirection("right");
+    setCurrentCategoryIndex((prev) =>
+      prev < categories.length - 1 ? prev + 1 : 0,
+    );
+    setTimeout(() => setSlideDirection("none"), 250);
+  };
+
   return (
-    <main
-      className="container mt-5 d-flex justify-content-center align-items-center"
-      style={{ minHeight: "80vh" }}
-    >
-      <section className="card shadow w-100" style={{ maxWidth: "600px" }}>
-        <header className="card-header bg-primary text-white text-center py-3">
-          <h1 className="h4 mb-0">
+    <main className="app-root">
+      <section className="card app-card shadow d-flex flex-column">
+        <header className="card-header bg-primary text-white py-3 d-flex justify-content-between align-items-center">
+          <div style={{ width: "2.5rem" }} />
+          {/* místo pro zarovnání */}
+
+          <h1 className="h4 mb-0 text-center flex-grow-1">
             {!selectedCategory
               ? "Vědomostní Kvíz"
               : `Kvíz: ${selectedCategory.name}`}
             {selectedDifficulty &&
-              ` (${selectedDifficulty === "nizka" ? "Nízká" : selectedDifficulty === "stredni" ? "Střední" : "Vysoká"})`}
+              ` (${
+                selectedDifficulty === "nizka"
+                  ? "Nízká"
+                  : selectedDifficulty === "stredni"
+                    ? "Střední"
+                    : "Vysoká"
+              })`}
           </h1>
+
+          <button
+            type="button"
+            className="btn btn-sm btn-light ms-2"
+            onClick={toggleTheme}
+            aria-label="Přepnout motiv"
+          >
+            🌓
+          </button>
         </header>
 
-        <div className="card-body p-4">
+        <div className="card-body p-4 flex-grow-1 d-flex flex-column">
           {cookieConsent === null ? (
-            <div className="text-center">
+            <div className="text-center my-auto">
               <div className="mb-4" style={{ fontSize: "3rem" }}>
                 🍪
               </div>
@@ -166,26 +215,80 @@ export default function App() {
               </div>
             </div>
           ) : !selectedCategory ? (
-            <div className="text-center">
-              <h2 className="h3 mb-3">Vítejte!</h2>
+            <div className="text-center my-auto">
+              <h2 className="h3 mb-4">Vítejte!</h2>
               <p className="text-muted mb-4">
                 Vyberte si kategorii a otestujte své znalosti.
               </p>
-              <div className="category-carousel" role="list">
-                {categories.map((cat) => (
-                  <div className="category-card" role="listitem" key={cat.id}>
+
+              {/* 3 ČTVERCE – PŘEDCHOZÍ / AKTUÁLNÍ / DALŠÍ */}
+              <div className="category-carousel-wrapper d-flex align-items-center justify-content-center">
+                <button
+                  type="button"
+                  className="btn btn-outline-secondary me-3"
+                  onClick={goPrev}
+                  aria-label="Předchozí kategorie"
+                >
+                  ◀
+                </button>
+
+                <div
+                  className={`category-carousel category-carousel-slide-${slideDirection}`}
+                >
+                  {/* levý – předchozí, šedý, neklikací */}
+                  <div className="category-card category-card-side">
+                    <div className="category-box category-box-side">
+                      <span className="category-icon">
+                        {categories[prevIndex].icon}
+                      </span>
+                      <span className="category-name">
+                        {categories[prevIndex].name}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* prostřední – aktuální, barevný, klikací */}
+                  <div className="category-card category-card-center">
                     <button
-                      className="btn btn-outline-primary btn-lg d-flex align-items-center justify-content-center gap-2"
-                      onClick={() => handleCategorySelect(cat)}
+                      className="category-box category-box-center btn btn-outline-primary"
+                      onClick={() =>
+                        handleCategorySelect(categories[currentCategoryIndex])
+                      }
                     >
-                      <span>{cat.icon}</span> {cat.name}
+                      <span className="category-icon">
+                        {categories[currentCategoryIndex].icon}
+                      </span>
+                      <span className="category-name">
+                        {categories[currentCategoryIndex].name}
+                      </span>
                     </button>
                   </div>
-                ))}
+
+                  {/* pravý – další, šedý, neklikací */}
+                  <div className="category-card category-card-side">
+                    <div className="category-box category-box-side">
+                      <span className="category-icon">
+                        {categories[nextIndex].icon}
+                      </span>
+                      <span className="category-name">
+                        {categories[nextIndex].name}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  className="btn btn-outline-secondary ms-3"
+                  onClick={goNext}
+                  aria-label="Další kategorie"
+                >
+                  ▶
+                </button>
               </div>
             </div>
           ) : !selectedDifficulty ? (
-            <div className="text-center">
+            <div className="text-center my-auto">
               <h2 className="h3 mb-3">Zvolte obtížnost</h2>
               <p className="text-muted mb-4">
                 Jak moc si věříte v kategorii {selectedCategory.name}?
@@ -218,7 +321,7 @@ export default function App() {
               </button>
             </div>
           ) : showScore ? (
-            <div className="text-center" aria-live="polite">
+            <div className="text-center my-auto" aria-live="polite">
               <h2 className="h3 mb-4">
                 Dokončeno! Získal(a) jsi {score} z {quizData.length} bodů.
               </h2>
@@ -319,18 +422,6 @@ export default function App() {
           )}
         </div>
       </section>
-      <footer className="bg-light container text-center py-3 fixed-bottom">
-        <small className="text-muted">
-          Vytvořil Lukáš Sandtner | &copy;2026 | &nbsp;
-          <a
-            href="https://github.com/LukasSandtner/BVWA1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </small>
-      </footer>
     </main>
   );
 }
