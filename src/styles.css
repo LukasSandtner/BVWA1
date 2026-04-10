@@ -37,30 +37,224 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* === CAROUSEL: 3 VELKÉ ČTVERECE === */
+
+.category-carousel-wrapper {
+  max-width: 100%;
+}
+
 .category-carousel {
   display: flex;
-  gap: 0.75rem;
-  overflow-x: auto;
-  padding: 0.25rem;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  transition:
+    transform 2s ease,
+    opacity 2s ease;
 }
 
-.category-carousel::-webkit-scrollbar {
-  height: 8px;
+/* animace podle směru */
+.category-carousel-slide-left {
+  transform: translateX(80px);
+  opacity: 0.9;
 }
 
-.category-carousel::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 999px;
+.category-carousel-slide-right {
+  transform: translateX(-80px);
+  opacity: 0.9;
 }
 
 .category-card {
   flex: 0 0 auto;
-  min-width: 220px;
-  scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.category-card button {
+/* společné pro všechny čtverce */
+.category-box {
+  width: 220px;
+  height: 220px;
+  border-radius: 1.4rem;
+  border-width: 2px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* prostřední – aktivní */
+.category-box-center {
+  background-color: #ffffff;
+}
+
+/* levý/pravý – šedý, menší, neklikací */
+.category-box-side {
+  background-color: #f1f1f1;
+  opacity: 0.6;
+  transform: scale(0.9);
+  cursor: default;
+}
+
+/* obsah */
+.category-icon {
+  font-size: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+/* NÁZEV KATEGORIE – VŽDY FIALOVÝ (přepíšeme Bootstrap) */
+.category-box .category-name {
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-align: center;
+  color: #bb86fc !important;
+}
+
+/* FULL‑SCREEN LAYOUT */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.app-root {
+  height: 100%;
   width: 100%;
+  display: flex;
+}
+
+.app-card {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* DARK TÉMA */
+
+body[data-theme="dark"] {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* základní pozadí + karta */
+body[data-theme="dark"] .card {
+  background-color: #1f1f1f;
+  color: #f5f5f5;
+}
+
+/* HORNÍ LIŠTA – FIALOVÁ I V DARK THEME */
+body[data-theme="dark"] .card-header.bg-primary {
+  background-color: #4a148c !important;
+}
+
+/* texty – ať jsou čitelné */
+body[data-theme="dark"],
+body[data-theme="dark"] .card-body,
+body[data-theme="dark"] h1,
+body[data-theme="dark"] h2,
+body[data-theme="dark"] h3,
+body[data-theme="dark"] h4,
+body[data-theme="dark"] h5,
+body[data-theme="dark"] h6,
+body[data-theme="dark"] p,
+body[data-theme="dark"] span,
+body[data-theme="dark"] small,
+body[data-theme="dark"] label,
+body[data-theme="dark"] .text-dark {
+  color: #f5f5f5 !important;
+}
+
+body[data-theme="dark"] .text-muted,
+body[data-theme="dark"] .text-secondary {
+  color: #b0b0b0 !important;
+}
+
+/* odkazy */
+body[data-theme="dark"] a {
+  color: #82b1ff;
+}
+
+body[data-theme="dark"] a:hover {
+  color: #bb86fc;
+}
+
+/* tlačítka */
+body[data-theme="dark"] .btn-light {
+  background-color: #424242 !important;
+  color: #f5f5f5 !important;
+  border-color: #616161 !important;
+}
+
+body[data-theme="dark"] .btn-outline-primary {
+  border-color: #bb86fc !important;
+  color: #bb86fc !important;
+}
+
+body[data-theme="dark"] .btn-outline-primary:hover {
+  background-color: #bb86fc !important;
+  color: #121212 !important;
+}
+
+/* primární tlačítko v dark */
+body[data-theme="dark"] .btn-primary {
+  background-color: #bb86fc !important;
+  border-color: #bb86fc !important;
+  color: #121212 !important;
+}
+
+/* sekundární btn – světle šedý */
+body[data-theme="dark"] .btn-secondary {
+  background-color: #424242 !important;
+  border-color: #616161 !important;
+  color: #f5f5f5 !important;
+}
+
+/* danger btn – červený na tmavém */
+body[data-theme="dark"] .btn-danger {
+  background-color: #cf6679 !important;
+  border-color: #cf6679 !important;
+  color: #121212 !important;
+}
+
+/* warning btn – žlutý, tmavý text */
+body[data-theme="dark"] .btn-warning {
+  background-color: #ffb74d !important;
+  border-color: #ffb74d !important;
+  color: #121212 !important;
+}
+
+/* progress bar v dark */
+body[data-theme="dark"] .progress {
+  background-color: #2a2a2a !important;
+}
+
+body[data-theme="dark"] .progress-bar.bg-primary {
+  background-color: #bb86fc !important;
+}
+
+/* ZELENÁ / ČERVENÁ ODPOVĚĎ V DARK TÉMATU – AŤ JSOU VIDĚT */
+
+body[data-theme="dark"] .bg-success-subtle {
+  background-color: #1b5e20 !important;
+  border-color: #66bb6a !important;
+  color: #e8f5e9 !important;
+}
+
+body[data-theme="dark"] .bg-danger-subtle {
+  background-color: #b71c1c !important;
+  border-color: #ef9a9a !important;
+  color: #ffebee !important;
+}
+
+body[data-theme="dark"] .text-success {
+  color: #81c784 !important;
+}
+
+body[data-theme="dark"] .text-danger {
+  color: #ef9a9a !important;
 }
