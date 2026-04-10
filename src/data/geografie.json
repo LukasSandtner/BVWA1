@@ -1,0 +1,278 @@
+{
+  "nizka": [
+    {
+      "questionText": "Jaké je hlavní město České republiky?",
+      "answerOptions": [
+        { "answerText": "Brno", "isCorrect": false },
+        { "answerText": "Praha", "isCorrect": true },
+        { "answerText": "Ostrava", "isCorrect": false },
+        { "answerText": "Plzeň", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který oceán leží mezi Evropou a Amerikou?",
+      "answerOptions": [
+        { "answerText": "Tichý oceán", "isCorrect": false },
+        { "answerText": "Atlantský oceán", "isCorrect": true },
+        { "answerText": "Indický oceán", "isCorrect": false },
+        { "answerText": "Severní ledový oceán", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která řeka protéká Prahou?",
+      "answerOptions": [
+        { "answerText": "Labe", "isCorrect": false },
+        { "answerText": "Vltava", "isCorrect": true },
+        { "answerText": "Morava", "isCorrect": false },
+        { "answerText": "Odra", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Na kterém kontinentu leží Egypt?",
+      "answerOptions": [
+        { "answerText": "Evropa", "isCorrect": false },
+        { "answerText": "Afrika", "isCorrect": true },
+        { "answerText": "Asie", "isCorrect": false },
+        { "answerText": "Jižní Amerika", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které pohoří odděluje Evropu a Asii?",
+      "answerOptions": [
+        { "answerText": "Alpy", "isCorrect": false },
+        { "answerText": "Ural", "isCorrect": true },
+        { "answerText": "Pyreneje", "isCorrect": false },
+        { "answerText": "Kavkaz", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která země má tvar „italské boty“?",
+      "answerOptions": [
+        { "answerText": "Španělsko", "isCorrect": false },
+        { "answerText": "Itálie", "isCorrect": true },
+        { "answerText": "Řecko", "isCorrect": false },
+        { "answerText": "Portugalsko", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaké je hlavní město Francie?",
+      "answerOptions": [
+        { "answerText": "Lyon", "isCorrect": false },
+        { "answerText": "Paříž", "isCorrect": true },
+        { "answerText": "Marseille", "isCorrect": false },
+        { "answerText": "Nice", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který kontinent je největší rozlohou?",
+      "answerOptions": [
+        { "answerText": "Afrika", "isCorrect": false },
+        { "answerText": "Asie", "isCorrect": true },
+        { "answerText": "Severní Amerika", "isCorrect": false },
+        { "answerText": "Evropa", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které moře omývá pobřeží Chorvatska?",
+      "answerOptions": [
+        { "answerText": "Baltské moře", "isCorrect": false },
+        { "answerText": "Jaderské moře", "isCorrect": true },
+        { "answerText": "Černé moře", "isCorrect": false },
+        { "answerText": "Severní moře", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který stát je známý jako „Země vycházejícího slunce“?",
+      "answerOptions": [
+        { "answerText": "Čína", "isCorrect": false },
+        { "answerText": "Japonsko", "isCorrect": true },
+        { "answerText": "Jižní Korea", "isCorrect": false },
+        { "answerText": "Vietnam", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Jaké je hlavní město Kanady?",
+      "answerOptions": [
+        { "answerText": "Toronto", "isCorrect": false },
+        { "answerText": "Ottawa", "isCorrect": true },
+        { "answerText": "Montreal", "isCorrect": false },
+        { "answerText": "Vancouver", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která řeka je nejdelší v Evropě?",
+      "answerOptions": [
+        { "answerText": "Dunaj", "isCorrect": false },
+        { "answerText": "Volha", "isCorrect": true },
+        { "answerText": "Rýn", "isCorrect": false },
+        { "answerText": "Labe", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Ve které zemi leží město Barcelona?",
+      "answerOptions": [
+        { "answerText": "Portugalsko", "isCorrect": false },
+        { "answerText": "Španělsko", "isCorrect": true },
+        { "answerText": "Francie", "isCorrect": false },
+        { "answerText": "Itálie", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která poušť je největší horká poušť na světě?",
+      "answerOptions": [
+        { "answerText": "Gobi", "isCorrect": false },
+        { "answerText": "Sahara", "isCorrect": true },
+        { "answerText": "Atacama", "isCorrect": false },
+        { "answerText": "Kalahari", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaké je hlavní město Austrálie?",
+      "answerOptions": [
+        { "answerText": "Sydney", "isCorrect": false },
+        { "answerText": "Canberra", "isCorrect": true },
+        { "answerText": "Melbourne", "isCorrect": false },
+        { "answerText": "Perth", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který průliv odděluje Evropu a Afriku?",
+      "answerOptions": [
+        { "answerText": "Beringův průliv", "isCorrect": false },
+        { "answerText": "Gibraltarský průliv", "isCorrect": true },
+        { "answerText": "La Manche", "isCorrect": false },
+        { "answerText": "Bospor", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který ostrov je největší na světě?",
+      "answerOptions": [
+        { "answerText": "Madagaskar", "isCorrect": false },
+        { "answerText": "Grónsko", "isCorrect": true },
+        { "answerText": "Borneo", "isCorrect": false },
+        { "answerText": "Nová Guinea", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které moře je nejslanější (běžně uváděné v geografii)?",
+      "answerOptions": [
+        { "answerText": "Středozemní moře", "isCorrect": false },
+        { "answerText": "Rudé moře", "isCorrect": true },
+        { "answerText": "Černé moře", "isCorrect": false },
+        { "answerText": "Baltské moře", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který stát nemá moře (je vnitrozemský)?",
+      "answerOptions": [
+        { "answerText": "Portugalsko", "isCorrect": false },
+        { "answerText": "Rakousko", "isCorrect": true },
+        { "answerText": "Norsko", "isCorrect": false },
+        { "answerText": "Řecko", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který evropský stát má hlavní město Lisabon?",
+      "answerOptions": [
+        { "answerText": "Španělsko", "isCorrect": false },
+        { "answerText": "Portugalsko", "isCorrect": true },
+        { "answerText": "Itálie", "isCorrect": false },
+        { "answerText": "Francie", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Jaké je hlavní město Kazachstánu (dnes)?",
+      "answerOptions": [
+        { "answerText": "Almaty", "isCorrect": false },
+        { "answerText": "Astana", "isCorrect": true },
+        { "answerText": "Taškent", "isCorrect": false },
+        { "answerText": "Biškek", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která řeka protéká Budapeští?",
+      "answerOptions": [
+        { "answerText": "Rýn", "isCorrect": false },
+        { "answerText": "Dunaj", "isCorrect": true },
+        { "answerText": "Tisa", "isCorrect": false },
+        { "answerText": "Sáva", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který stát má nejvíce časových pásem?",
+      "answerOptions": [
+        { "answerText": "Rusko", "isCorrect": false },
+        { "answerText": "Francie", "isCorrect": true },
+        { "answerText": "USA", "isCorrect": false },
+        { "answerText": "Čína", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje nejvyšší hora Evropy podle běžného školního pojetí (Kavkaz v Evropě)?",
+      "answerOptions": [
+        { "answerText": "Mont Blanc", "isCorrect": false },
+        { "answerText": "Elbrus", "isCorrect": true },
+        { "answerText": "Matterhorn", "isCorrect": false },
+        { "answerText": "Triglav", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která země má nejdelší pobřeží na světě?",
+      "answerOptions": [
+        { "answerText": "Austrálie", "isCorrect": false },
+        { "answerText": "Kanada", "isCorrect": true },
+        { "answerText": "Indonésie", "isCorrect": false },
+        { "answerText": "Rusko", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které pohoří se táhne podél západního okraje Jižní Ameriky?",
+      "answerOptions": [
+        { "answerText": "Skalnaté hory", "isCorrect": false },
+        { "answerText": "Andy", "isCorrect": true },
+        { "answerText": "Atlas", "isCorrect": false },
+        { "answerText": "Himaláje", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které jezero je nejhlubší na světě?",
+      "answerOptions": [
+        { "answerText": "Kaspické moře", "isCorrect": false },
+        { "answerText": "Bajkal", "isCorrect": true },
+        { "answerText": "Tanganika", "isCorrect": false },
+        { "answerText": "Viktoriino jezero", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která země leží na ostrově Hispaniola spolu s Dominikánskou republikou?",
+      "answerOptions": [
+        { "answerText": "Jamajka", "isCorrect": false },
+        { "answerText": "Haiti", "isCorrect": true },
+        { "answerText": "Kuba", "isCorrect": false },
+        { "answerText": "Portoriko", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která řeka protéká městem Káhira?",
+      "answerOptions": [
+        { "answerText": "Kongo", "isCorrect": false },
+        { "answerText": "Nil", "isCorrect": true },
+        { "answerText": "Niger", "isCorrect": false },
+        { "answerText": "Zambezi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje největší tropický deštný prales na světě?",
+      "answerOptions": [
+        { "answerText": "Kongo", "isCorrect": false },
+        { "answerText": "Amazonie", "isCorrect": true },
+        { "answerText": "Sundarbans", "isCorrect": false },
+        { "answerText": "Daintree", "isCorrect": false }
+      ]
+    }
+  ]
+}

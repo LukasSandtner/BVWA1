@@ -1,0 +1,281 @@
+{
+  "nizka": [
+    {
+      "questionText": "Kdo namaloval Monu Lisu?",
+      "answerOptions": [
+        { "answerText": "Pablo Picasso", "isCorrect": false },
+        { "answerText": "Vincent van Gogh", "isCorrect": false },
+        { "answerText": "Leonardo da Vinci", "isCorrect": true },
+        { "answerText": "Claude Monet", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který autor napsal Babičku?",
+      "answerOptions": [
+        { "answerText": "Karel Čapek", "isCorrect": false },
+        { "answerText": "Božena Němcová", "isCorrect": true },
+        { "answerText": "Alois Jirásek", "isCorrect": false },
+        { "answerText": "Jan Neruda", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Ve kterém městě se nachází Koloseum?",
+      "answerOptions": [
+        { "answerText": "Paříž", "isCorrect": false },
+        { "answerText": "Atény", "isCorrect": false },
+        { "answerText": "Řím", "isCorrect": true },
+        { "answerText": "Madrid", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký hudební nástroj má 88 kláves?",
+      "answerOptions": [
+        { "answerText": "Klavír", "isCorrect": true },
+        { "answerText": "Varhany", "isCorrect": false },
+        { "answerText": "Akordeon", "isCorrect": false },
+        { "answerText": "Cembalo", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který film získal prvního Oscara za nejlepší film?",
+      "answerOptions": [
+        { "answerText": "Kmotr", "isCorrect": false },
+        { "answerText": "Casablanca", "isCorrect": false },
+        { "answerText": "Křídla (Wings)", "isCorrect": true },
+        { "answerText": "Jih proti Severu", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který bůh byl v řecké mytologii bohem moře?",
+      "answerOptions": [
+        { "answerText": "Zeus", "isCorrect": false },
+        { "answerText": "Poseidón", "isCorrect": true },
+        { "answerText": "Hádés", "isCorrect": false },
+        { "answerText": "Ares", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která země darovala USA Sochu svobody?",
+      "answerOptions": [
+        { "answerText": "Velká Británie", "isCorrect": false },
+        { "answerText": "Španělsko", "isCorrect": false },
+        { "answerText": "Francie", "isCorrect": true },
+        { "answerText": "Itálie", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo složil operu Prodaná nevěsta?",
+      "answerOptions": [
+        { "answerText": "Antonín Dvořák", "isCorrect": false },
+        { "answerText": "Bedřich Smetana", "isCorrect": true },
+        { "answerText": "Leoš Janáček", "isCorrect": false },
+        { "answerText": "Zdeněk Fibich", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký jazyk má na světě nejvíce rodilých mluvčích?",
+      "answerOptions": [
+        { "answerText": "Angličtina", "isCorrect": false },
+        { "answerText": "Španělština", "isCorrect": false },
+        { "answerText": "Mandarínská čínština", "isCorrect": true },
+        { "answerText": "Hindština", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Ve kterém století probíhala renesance v Itálii?",
+      "answerOptions": [
+        { "answerText": "12. až 13. století", "isCorrect": false },
+        { "answerText": "14. až 16. století", "isCorrect": true },
+        { "answerText": "17. až 18. století", "isCorrect": false },
+        { "answerText": "19. století", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Který spisovatel vytvořil postavu Sherlocka Holmese?",
+      "answerOptions": [
+        { "answerText": "Agatha Christie", "isCorrect": false },
+        { "answerText": "Arthur Conan Doyle", "isCorrect": true },
+        { "answerText": "Edgar Allan Poe", "isCorrect": false },
+        { "answerText": "Raymond Chandler", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje slavná operní scéna v Miláně?",
+      "answerOptions": [
+        { "answerText": "Metropolitan Opera", "isCorrect": false },
+        { "answerText": "La Scala", "isCorrect": true },
+        { "answerText": "Covent Garden", "isCorrect": false },
+        { "answerText": "Bolšoj těatr", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který malíř si uřízl ucho?",
+      "answerOptions": [
+        { "answerText": "Salvador Dalí", "isCorrect": false },
+        { "answerText": "Vincent van Gogh", "isCorrect": true },
+        { "answerText": "Paul Gauguin", "isCorrect": false },
+        { "answerText": "Edvard Munch", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která antická bohyně se zrodila z mořské pěny?",
+      "answerOptions": [
+        { "answerText": "Héra", "isCorrect": false },
+        { "answerText": "Athéna", "isCorrect": false },
+        { "answerText": "Afrodita", "isCorrect": true },
+        { "answerText": "Artemis", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje posvátná kniha islámu?",
+      "answerOptions": [
+        { "answerText": "Tóra", "isCorrect": false },
+        { "answerText": "Korán", "isCorrect": true },
+        { "answerText": "Bible", "isCorrect": false },
+        { "answerText": "Védy", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo napsal román 1984?",
+      "answerOptions": [
+        { "answerText": "Aldous Huxley", "isCorrect": false },
+        { "answerText": "George Orwell", "isCorrect": true },
+        { "answerText": "Ray Bradbury", "isCorrect": false },
+        { "answerText": "Franz Kafka", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Ve které zemi vzniklo anime?",
+      "answerOptions": [
+        { "answerText": "Čína", "isCorrect": false },
+        { "answerText": "Jižní Korea", "isCorrect": false },
+        { "answerText": "Japonsko", "isCorrect": true },
+        { "answerText": "Thajsko", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje největší muzeum umění na světě, které sídlí v Paříži?",
+      "answerOptions": [
+        { "answerText": "Prado", "isCorrect": false },
+        { "answerText": "Louvre", "isCorrect": true },
+        { "answerText": "Uffizi", "isCorrect": false },
+        { "answerText": "Tate Modern", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který skladatel ohluchl, ale přesto dál skládal hudbu?",
+      "answerOptions": [
+        { "answerText": "Mozart", "isCorrect": false },
+        { "answerText": "Ludwig van Beethoven", "isCorrect": true },
+        { "answerText": "Bach", "isCorrect": false },
+        { "answerText": "Vivaldi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který architekt navrhl Tančící dům v Praze?",
+      "answerOptions": [
+        { "answerText": "Jan Kaplický", "isCorrect": false },
+        { "answerText": "Frank Gehry", "isCorrect": true },
+        { "answerText": "Le Corbusier", "isCorrect": false },
+        { "answerText": "Zaha Hadid", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Co je to 'sfumato'?",
+      "answerOptions": [
+        {
+          "answerText": "Technika míchání barev pro jemné přechody",
+          "isCorrect": true
+        },
+        { "answerText": "Druh italského sochařství", "isCorrect": false },
+        { "answerText": "Architektonický prvek kopule", "isCorrect": false },
+        { "answerText": "Způsob ladění klavíru", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo napsal filosofické dílo 'Tak pravil Zarathustra'?",
+      "answerOptions": [
+        { "answerText": "Immanuel Kant", "isCorrect": false },
+        { "answerText": "Friedrich Nietzsche", "isCorrect": true },
+        { "answerText": "Arthur Schopenhauer", "isCorrect": false },
+        { "answerText": "Jean-Paul Sartre", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který umělecký směr se vyznačoval snovými výjevy a nelogickými kombinacemi?",
+      "answerOptions": [
+        { "answerText": "Impresionismus", "isCorrect": false },
+        { "answerText": "Surrealismus", "isCorrect": true },
+        { "answerText": "Kubismus", "isCorrect": false },
+        { "answerText": "Klasicismus", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje japonské rituální divadlo s maskami?",
+      "answerOptions": [
+        { "answerText": "Kabuki", "isCorrect": false },
+        { "answerText": "Nó", "isCorrect": true },
+        { "answerText": "Butó", "isCorrect": false },
+        { "answerText": "Bunraku", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která opera zahájila provoz Národního divadla v Praze?",
+      "answerOptions": [
+        { "answerText": "Rusalka", "isCorrect": false },
+        { "answerText": "Libuše", "isCorrect": true },
+        { "answerText": "Dalibor", "isCorrect": false },
+        { "answerText": "Hubička", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo je autorem obrazu 'Guernica'?",
+      "answerOptions": [
+        { "answerText": "Salvador Dalí", "isCorrect": false },
+        { "answerText": "Pablo Picasso", "isCorrect": true },
+        { "answerText": "Joan Miró", "isCorrect": false },
+        { "answerText": "Diego Velázquez", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje hlavní postava Joyceova románu Odysseus?",
+      "answerOptions": [
+        { "answerText": "Stephen Dedalus", "isCorrect": false },
+        { "answerText": "Leopold Bloom", "isCorrect": true },
+        { "answerText": "Molly Bloom", "isCorrect": false },
+        { "answerText": "Buck Mulligan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který filosof je autorem výroku 'Myslím, tedy jsem'?",
+      "answerOptions": [
+        { "answerText": "Sokrates", "isCorrect": false },
+        { "answerText": "René Descartes", "isCorrect": true },
+        { "answerText": "Platón", "isCorrect": false },
+        { "answerText": "Aristoteles", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo byl prvním africkým spisovatelem, který získal Nobelovu cenu za literaturu?",
+      "answerOptions": [
+        { "answerText": "Chinua Achebe", "isCorrect": false },
+        { "answerText": "Wole Soyinka", "isCorrect": true },
+        { "answerText": "Nadine Gordimer", "isCorrect": false },
+        { "answerText": "J. M. Coetzee", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který hudební interval byl ve středověku nazýván 'diabolus in musica'?",
+      "answerOptions": [
+        { "answerText": "Kvarta", "isCorrect": false },
+        { "answerText": "Tritonus", "isCorrect": true },
+        { "answerText": "Kvinta", "isCorrect": false },
+        { "answerText": "Oktáva", "isCorrect": false }
+      ]
+    }
+  ]
+}

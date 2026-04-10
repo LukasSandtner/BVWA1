@@ -1,0 +1,293 @@
+{
+  "nizka": [
+    {
+      "questionText": "Kolik je 8 × 7?",
+      "answerOptions": [
+        { "answerText": "54", "isCorrect": false },
+        { "answerText": "56", "isCorrect": true },
+        { "answerText": "62", "isCorrect": false },
+        { "answerText": "64", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je součet vnitřních úhlů v trojúhelníku?",
+      "answerOptions": [
+        { "answerText": "90 stupňů", "isCorrect": false },
+        { "answerText": "180 stupňů", "isCorrect": true },
+        { "answerText": "360 stupňů", "isCorrect": false },
+        { "answerText": "270 stupňů", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je druhá odmocnina ze 144?",
+      "answerOptions": [
+        { "answerText": "12", "isCorrect": true },
+        { "answerText": "14", "isCorrect": false },
+        { "answerText": "16", "isCorrect": false },
+        { "answerText": "10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které z těchto čísel je prvočíslo?",
+      "answerOptions": [
+        { "answerText": "15", "isCorrect": false },
+        { "answerText": "21", "isCorrect": false },
+        { "answerText": "29", "isCorrect": true },
+        { "answerText": "33", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je přibližná hodnota čísla Pí?",
+      "answerOptions": [
+        { "answerText": "3,12", "isCorrect": false },
+        { "answerText": "3,14", "isCorrect": true },
+        { "answerText": "3,16", "isCorrect": false },
+        { "answerText": "3,18", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik stran má osmiúhelník?",
+      "answerOptions": [
+        { "answerText": "6", "isCorrect": false },
+        { "answerText": "7", "isCorrect": false },
+        { "answerText": "8", "isCorrect": true },
+        { "answerText": "9", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik je 15 % ze 200?",
+      "answerOptions": [
+        { "answerText": "20", "isCorrect": false },
+        { "answerText": "25", "isCorrect": false },
+        { "answerText": "30", "isCorrect": true },
+        { "answerText": "35", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá nejdelší strana v pravoúhlém trojúhelníku?",
+      "answerOptions": [
+        { "answerText": "Odvěsna", "isCorrect": false },
+        { "answerText": "Přepona", "isCorrect": true },
+        { "answerText": "Těžnice", "isCorrect": false },
+        { "answerText": "Výška", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo je neutrální prvek pro násobení?",
+      "answerOptions": [
+        { "answerText": "0", "isCorrect": false },
+        { "answerText": "1", "isCorrect": true },
+        { "answerText": "-1", "isCorrect": false },
+        { "answerText": "Nekonečno", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je výsledek 5 + 3 × 2?",
+      "answerOptions": [
+        { "answerText": "16", "isCorrect": false },
+        { "answerText": "11", "isCorrect": true },
+        { "answerText": "10", "isCorrect": false },
+        { "answerText": "15", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Jaká je pravděpodobnost, že na šestistěnné kostce padne číslo 5?",
+      "answerOptions": [
+        { "answerText": "1/5", "isCorrect": false },
+        { "answerText": "1/6", "isCorrect": true },
+        { "answerText": "1/2", "isCorrect": false },
+        { "answerText": "1/3", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se vypočítá obvod kruhu?",
+      "answerOptions": [
+        { "answerText": "2 * Pí * r", "isCorrect": true },
+        { "answerText": "Pí * r^2", "isCorrect": false },
+        { "answerText": "Pí * d^2", "isCorrect": false },
+        { "answerText": "r^2", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to medián?",
+      "answerOptions": [
+        { "answerText": "Průměrná hodnota", "isCorrect": false },
+        {
+          "answerText": "Prostřední hodnota seřazeného souboru",
+          "isCorrect": true
+        },
+        { "answerText": "Nejčastější hodnota", "isCorrect": false },
+        { "answerText": "Rozdíl maxima a minima", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který zlomků je největší?",
+      "answerOptions": [
+        { "answerText": "3/4", "isCorrect": false },
+        { "answerText": "5/8", "isCorrect": false },
+        { "answerText": "4/5", "isCorrect": true },
+        { "answerText": "7/10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Vyřeš rovnici: 2x - 4 = 10",
+      "answerOptions": [
+        { "answerText": "x = 3", "isCorrect": false },
+        { "answerText": "x = 7", "isCorrect": true },
+        { "answerText": "x = 5", "isCorrect": false },
+        { "answerText": "x = 6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá úhel větší než 90° a menší než 180°?",
+      "answerOptions": [
+        { "answerText": "Ostrý", "isCorrect": false },
+        { "answerText": "Tupý", "isCorrect": true },
+        { "answerText": "Pravý", "isCorrect": false },
+        { "answerText": "Přímý", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik je 3 na třetí (3³)?",
+      "answerOptions": [
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "27", "isCorrect": true },
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "81", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to hypotenusa?",
+      "answerOptions": [
+        { "answerText": "Nejkratší strana trojúhelníku", "isCorrect": false },
+        { "answerText": "Přepona pravoúhlého trojúhelníku", "isCorrect": true },
+        {
+          "answerText": "Odvěsna pravoúhlého trojúhelníku",
+          "isCorrect": false
+        },
+        { "answerText": "Výška trojúhelníku", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je hodnota Pí na dvě desetinná místa?",
+      "answerOptions": [
+        { "answerText": "3,12", "isCorrect": false },
+        { "answerText": "3,14", "isCorrect": true },
+        { "answerText": "3,16", "isCorrect": false },
+        { "answerText": "3,20", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik nul má miliarda?",
+      "answerOptions": [
+        { "answerText": "6", "isCorrect": false },
+        { "answerText": "9", "isCorrect": true },
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Co je to imaginární jednotka 'i'?",
+      "answerOptions": [
+        { "answerText": "Nekonečno", "isCorrect": false },
+        { "answerText": "Odmocnina z -1", "isCorrect": true },
+        { "answerText": "Odmocnina z 2", "isCorrect": false },
+        { "answerText": "Eulerovo číslo", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je derivát z x²?",
+      "answerOptions": [
+        { "answerText": "x", "isCorrect": false },
+        { "answerText": "2x", "isCorrect": true },
+        { "answerText": "x^3 / 3", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je integrál z funkce f(x) = 2x?",
+      "answerOptions": [
+        { "answerText": "x² + C", "isCorrect": true },
+        { "answerText": "2x² + C", "isCorrect": false },
+        { "answerText": "x + C", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co popisuje Fermatova velká věta?",
+      "answerOptions": [
+        {
+          "answerText": "Rovnici a^n + b^n = c^n nemá pro n>2 celočíselné řešení",
+          "isCorrect": true
+        },
+        { "answerText": "Součet vnitřních úhlů je 180", "isCorrect": false },
+        { "answerText": "Objem koule", "isCorrect": false },
+        { "answerText": "Pravidlo pro hledání prvočísel", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je přibližná hodnota Eulerova čísla (e)?",
+      "answerOptions": [
+        { "answerText": "3,14", "isCorrect": false },
+        { "answerText": "2,71", "isCorrect": true },
+        { "answerText": "1,61", "isCorrect": false },
+        { "answerText": "1,41", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá sekvence, kde každé číslo je součtem dvou předchozích?",
+      "answerOptions": [
+        { "answerText": "Geometrická posloupnost", "isCorrect": false },
+        { "answerText": "Fibonacciho posloupnost", "isCorrect": true },
+        { "answerText": "Aritmetická posloupnost", "isCorrect": false },
+        { "answerText": "Harmonická posloupnost", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je determinant matice?",
+      "answerOptions": [
+        { "answerText": "Její inverzní verze", "isCorrect": false },
+        {
+          "answerText": "Skalární hodnota charakterizující matici",
+          "isCorrect": true
+        },
+        { "answerText": "Vektor", "isCorrect": false },
+        { "answerText": "Součet všech jejích prvků", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je logaritmus 100 o základu 10 (log₁₀ 100)?",
+      "answerOptions": [
+        { "answerText": "10", "isCorrect": false },
+        { "answerText": "2", "isCorrect": true },
+        { "answerText": "100", "isCorrect": false },
+        { "answerText": "1", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik stěn má pravidelný dvacetistěn (ikosaedr)?",
+      "answerOptions": [
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "20", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false },
+        { "answerText": "32", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to asyptota?",
+      "answerOptions": [
+        {
+          "answerText": "Křivka, ke které se graf funkce blíží, ale nikdy ji neprotne",
+          "isCorrect": true
+        },
+        { "answerText": "Bod, kde se funkce rovná nule", "isCorrect": false },
+        { "answerText": "Nejvyšší bod funkce", "isCorrect": false },
+        { "answerText": "Osa symetrie", "isCorrect": false }
+      ]
+    }
+  ]
+}

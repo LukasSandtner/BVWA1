@@ -1,0 +1,293 @@
+{
+  "nizka": [
+    {
+      "questionText": "Která planeta je nejblíže Slunci?",
+      "answerOptions": [
+        { "answerText": "Venuše", "isCorrect": false },
+        { "answerText": "Země", "isCorrect": false },
+        { "answerText": "Merkur", "isCorrect": true },
+        { "answerText": "Mars", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje naše galaxie?",
+      "answerOptions": [
+        { "answerText": "Andromeda", "isCorrect": false },
+        { "answerText": "Mléčná dráha", "isCorrect": true },
+        { "answerText": "Sombrero", "isCorrect": false },
+        { "answerText": "Trojúhelník", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo byl prvním člověkem na Měsíci?",
+      "answerOptions": [
+        { "answerText": "Jurij Gagarin", "isCorrect": false },
+        { "answerText": "Buzz Aldrin", "isCorrect": false },
+        { "answerText": "Neil Armstrong", "isCorrect": true },
+        { "answerText": "Michael Collins", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je přibližná rychlost světla?",
+      "answerOptions": [
+        { "answerText": "300 000 km/s", "isCorrect": true },
+        { "answerText": "150 000 km/s", "isCorrect": false },
+        { "answerText": "1 000 000 km/s", "isCorrect": false },
+        { "answerText": "30 000 km/s", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to Slunce?",
+      "answerOptions": [
+        { "answerText": "Planeta", "isCorrect": false },
+        { "answerText": "Hvězda", "isCorrect": true },
+        { "answerText": "Kometa", "isCorrect": false },
+        { "answerText": "Měsíc", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která planeta má nejvýraznější prstence?",
+      "answerOptions": [
+        { "answerText": "Jupiter", "isCorrect": false },
+        { "answerText": "Uran", "isCorrect": false },
+        { "answerText": "Neptun", "isCorrect": false },
+        { "answerText": "Saturn", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá místo, odkud neunikne ani světlo?",
+      "answerOptions": [
+        { "answerText": "Červený trpaslík", "isCorrect": false },
+        { "answerText": "Černá díra", "isCorrect": true },
+        { "answerText": "Supernova", "isCorrect": false },
+        { "answerText": "Pulsar", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik planet má naše sluneční soustava?",
+      "answerOptions": [
+        { "answerText": "7", "isCorrect": false },
+        { "answerText": "8", "isCorrect": true },
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký plyn převládá na Slunci?",
+      "answerOptions": [
+        { "answerText": "Kyslík", "isCorrect": false },
+        { "answerText": "Hélium", "isCorrect": false },
+        { "answerText": "Vodík", "isCorrect": true },
+        { "answerText": "Dusík", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který vesmírný teleskop byl vypuštěn v roce 1990?",
+      "answerOptions": [
+        { "answerText": "James Webb", "isCorrect": false },
+        { "answerText": "Hubbleův", "isCorrect": true },
+        { "answerText": "Kepler", "isCorrect": false },
+        { "answerText": "Spitzer", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Který měsíc je největší ve sluneční soustavě?",
+      "answerOptions": [
+        { "answerText": "Titan", "isCorrect": false },
+        { "answerText": "Ganymed", "isCorrect": true },
+        { "answerText": "Měsíc", "isCorrect": false },
+        { "answerText": "Europa", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je teplota absolutní nuly?",
+      "answerOptions": [
+        { "answerText": "-273,15 °C", "isCorrect": true },
+        { "answerText": "-100 °C", "isCorrect": false },
+        { "answerText": "0 Kelvinů (což je -300 °C)", "isCorrect": false },
+        { "answerText": "-250 °C", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která planeta rotuje de facto 'položená na boku'?",
+      "answerOptions": [
+        { "answerText": "Uran", "isCorrect": true },
+        { "answerText": "Neptun", "isCorrect": false },
+        { "answerText": "Venuše", "isCorrect": false },
+        { "answerText": "Mars", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo jako první formuloval zákony pohybu planet?",
+      "answerOptions": [
+        { "answerText": "Koperník", "isCorrect": false },
+        { "answerText": "Kepler", "isCorrect": true },
+        { "answerText": "Galileo", "isCorrect": false },
+        { "answerText": "Newton", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je nejjasnější bod na noční obloze (kromě Měsíce)?",
+      "answerOptions": [
+        { "answerText": "Polárka", "isCorrect": false },
+        { "answerText": "Sírius", "isCorrect": true },
+        { "answerText": "Venuše", "isCorrect": false },
+        { "answerText": "Betelgeuze", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenoval první americký raketoplán?",
+      "answerOptions": [
+        { "answerText": "Challenger", "isCorrect": false },
+        { "answerText": "Discovery", "isCorrect": false },
+        { "answerText": "Columbia", "isCorrect": true },
+        { "answerText": "Atlantis", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která žena letěla jako první do vesmíru?",
+      "answerOptions": [
+        { "answerText": "Sally Rideová", "isCorrect": false },
+        { "answerText": "Valentina Těreškovová", "isCorrect": true },
+        { "answerText": "Světlana Savická", "isCorrect": false },
+        { "answerText": "Mae Jemisonová", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Z jakého plynného prvku je z největší části složen Jupiter?",
+      "answerOptions": [
+        { "answerText": "Kyslík", "isCorrect": false },
+        { "answerText": "Vodík", "isCorrect": true },
+        { "answerText": "Hélium", "isCorrect": false },
+        { "answerText": "Metan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kde se nachází asteroidový pás?",
+      "answerOptions": [
+        { "answerText": "Mezi Zemí a Marsem", "isCorrect": false },
+        { "answerText": "Mezi Marsem a Jupiterem", "isCorrect": true },
+        { "answerText": "Za Neptunem", "isCorrect": false },
+        { "answerText": "Mezi Venuší a Zemí", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak dlouho letí světlo ze Slunce na Zemi?",
+      "answerOptions": [
+        { "answerText": "Asi 8 minut", "isCorrect": true },
+        { "answerText": "Asi 1 vteřinu", "isCorrect": false },
+        { "answerText": "Asi 1 hodinu", "isCorrect": false },
+        { "answerText": "Asi 3 dny", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Co označuje Chandrasekharova mez?",
+      "answerOptions": [
+        {
+          "answerText": "Maximální hmotnost bílého trpaslíka",
+          "isCorrect": true
+        },
+        { "answerText": "Rychlost rozpínání vesmíru", "isCorrect": false },
+        { "answerText": "Velikost černé díry", "isCorrect": false },
+        { "answerText": "Teplotu na povrchu Slunce", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která sonda poprvé zblízka vyfotila Pluto?",
+      "answerOptions": [
+        { "answerText": "Voyager 2", "isCorrect": false },
+        { "answerText": "New Horizons", "isCorrect": true },
+        { "answerText": "Cassini", "isCorrect": false },
+        { "answerText": "Pioneer 10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to reliktové záření?",
+      "answerOptions": [
+        {
+          "answerText": "Záření z mobilních sítí ve vesmíru",
+          "isCorrect": false
+        },
+        { "answerText": "Zůstatek záření z Velkého třesku", "isCorrect": true },
+        { "answerText": "Záření černých děr", "isCorrect": false },
+        { "answerText": "Odražené sluneční světlo", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je přibližná hodnota Rocheovy meze?",
+      "answerOptions": [
+        {
+          "answerText": "Hranice, za kterou vznikají komety",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Vzdálenost, kde slapové síly roztrhají těleso",
+          "isCorrect": true
+        },
+        { "answerText": "Hranice naší galaxie", "isCorrect": false },
+        {
+          "answerText": "Teplotní hranice v atmosféře Slunce",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Jaký tvar má oběžná dráha komet většinou?",
+      "answerOptions": [
+        { "answerText": "Dokonale kruhový", "isCorrect": false },
+        { "answerText": "Extrémně eliptický", "isCorrect": true },
+        { "answerText": "Hyperbolický", "isCorrect": false },
+        { "answerText": "Parabolický", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který měsíc v naší soustavě má hustou atmosféru z dusíku?",
+      "answerOptions": [
+        { "answerText": "Europa", "isCorrect": false },
+        { "answerText": "Titan", "isCorrect": true },
+        { "answerText": "Io", "isCorrect": false },
+        { "answerText": "Triton", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá hraniční oblast černé díry, z níž neunikne světlo?",
+      "answerOptions": [
+        { "answerText": "Akréční disk", "isCorrect": false },
+        { "answerText": "Singularita", "isCorrect": false },
+        { "answerText": "Horizont událostí", "isCorrect": true },
+        { "answerText": "Ergosféra", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je hlavním zdrojem komet s dlouhou periodou?",
+      "answerOptions": [
+        { "answerText": "Kuiperův pás", "isCorrect": false },
+        { "answerText": "Oortův oblak", "isCorrect": true },
+        { "answerText": "Pás planetek", "isCorrect": false },
+        { "answerText": "Sluneční vítr", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co znamená zkratka zkratka pulsaru 'LGM' z prvního objevu?",
+      "answerOptions": [
+        { "answerText": "Light Galactic Matter", "isCorrect": false },
+        { "answerText": "Little Green Men", "isCorrect": true },
+        { "answerText": "Low Gravity Mass", "isCorrect": false },
+        { "answerText": "Large Gas Meteorite", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje nejbližší exoplaneta k naší sluneční soustavě?",
+      "answerOptions": [
+        { "answerText": "Kepler-186f", "isCorrect": false },
+        { "answerText": "Proxima Centauri b", "isCorrect": true },
+        { "answerText": "TRAPPIST-1e", "isCorrect": false },
+        { "answerText": "Gliese 581g", "isCorrect": false }
+      ]
+    }
+  ]
+}

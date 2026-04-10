@@ -1,0 +1,278 @@
+{
+  "nizka": [
+    {
+      "questionText": "Kolik je 2 + 2 × 2?",
+      "answerOptions": [
+        { "answerText": "6", "isCorrect": true },
+        { "answerText": "8", "isCorrect": false },
+        { "answerText": "4", "isCorrect": false },
+        { "answerText": "12", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo pokračuje v řadě: 2, 4, 6, 8, ...?",
+      "answerOptions": [
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "10", "isCorrect": true },
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "11", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které tvrzení je negací věty „Prší“?",
+      "answerOptions": [
+        { "answerText": "Prší a je zima", "isCorrect": false },
+        { "answerText": "Neprší", "isCorrect": true },
+        { "answerText": "Možná prší", "isCorrect": false },
+        { "answerText": "Určitě prší", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo je liché?",
+      "answerOptions": [
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "18", "isCorrect": false },
+        { "answerText": "7", "isCorrect": true },
+        { "answerText": "20", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které slovo do řady nepatří?",
+      "answerOptions": [
+        { "answerText": "Jablko", "isCorrect": false },
+        { "answerText": "Hruška", "isCorrect": false },
+        { "answerText": "Mrkev", "isCorrect": true },
+        { "answerText": "Švestka", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Pokud A je pravda a B je nepravda, jaká je hodnota „A a B“?",
+      "answerOptions": [
+        { "answerText": "Pravda", "isCorrect": false },
+        { "answerText": "Nepravda", "isCorrect": true },
+        { "answerText": "Nelze určit", "isCorrect": false },
+        { "answerText": "Někdy pravda", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který tvar má nejvíce stran?",
+      "answerOptions": [
+        { "answerText": "Trojúhelník", "isCorrect": false },
+        { "answerText": "Čtverec", "isCorrect": false },
+        { "answerText": "Pětiúhelník", "isCorrect": true },
+        { "answerText": "Kruh", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo je největší?",
+      "answerOptions": [
+        { "answerText": "19", "isCorrect": false },
+        { "answerText": "21", "isCorrect": true },
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "20", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který obrazec je symetrický podle svislé osy?",
+      "answerOptions": [
+        { "answerText": "Písmeno S", "isCorrect": false },
+        { "answerText": "Písmeno A", "isCorrect": true },
+        { "answerText": "Písmeno F", "isCorrect": false },
+        { "answerText": "Písmeno P", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký je další den po pondělí?",
+      "answerOptions": [
+        { "answerText": "Neděle", "isCorrect": false },
+        { "answerText": "Úterý", "isCorrect": true },
+        { "answerText": "Středa", "isCorrect": false },
+        { "answerText": "Čtvrtek", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Které číslo pokračuje v řadě: 1, 1, 2, 3, 5, 8, ...?",
+      "answerOptions": [
+        { "answerText": "11", "isCorrect": false },
+        { "answerText": "13", "isCorrect": true },
+        { "answerText": "14", "isCorrect": false },
+        { "answerText": "15", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik je 3^2 + 4^2?",
+      "answerOptions": [
+        { "answerText": "12", "isCorrect": false },
+        { "answerText": "25", "isCorrect": true },
+        { "answerText": "49", "isCorrect": false },
+        { "answerText": "7", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Pokud „všechna A jsou B“ a „žádné B není C“, co platí o A a C?",
+      "answerOptions": [
+        { "answerText": "Některá A jsou C", "isCorrect": false },
+        { "answerText": "Žádné A není C", "isCorrect": true },
+        { "answerText": "Všechna A jsou C", "isCorrect": false },
+        { "answerText": "Nelze ur��it", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo chybí: 5, 10, 20, 40, ...?",
+      "answerOptions": [
+        { "answerText": "45", "isCorrect": false },
+        { "answerText": "80", "isCorrect": true },
+        { "answerText": "60", "isCorrect": false },
+        { "answerText": "90", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik je pravdivých tvrzení: „A je pravda“, „A je nepravda“, pokud A je pravda?",
+      "answerOptions": [
+        { "answerText": "0", "isCorrect": false },
+        { "answerText": "1", "isCorrect": true },
+        { "answerText": "2", "isCorrect": false },
+        { "answerText": "Nelze určit", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který obrazec vznikne otočením písmene N o 180°?",
+      "answerOptions": [
+        { "answerText": "Z", "isCorrect": false },
+        { "answerText": "N", "isCorrect": true },
+        { "answerText": "M", "isCorrect": false },
+        { "answerText": "W", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "V krabici jsou 3 červené a 2 modré kuličky. Jaká je pravděpodobnost, že náhodně vytáhneš modrou?",
+      "answerOptions": [
+        { "answerText": "2/5", "isCorrect": true },
+        { "answerText": "3/5", "isCorrect": false },
+        { "answerText": "1/2", "isCorrect": false },
+        { "answerText": "1/5", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo je nejmenší?",
+      "answerOptions": [
+        { "answerText": "-3", "isCorrect": true },
+        { "answerText": "-1", "isCorrect": false },
+        { "answerText": "0", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které tvrzení je ekvivalentní „Pokud A, pak B“?",
+      "answerOptions": [
+        { "answerText": "A a B", "isCorrect": false },
+        { "answerText": "Pokud ne B, pak ne A", "isCorrect": true },
+        { "answerText": "A nebo B", "isCorrect": false },
+        { "answerText": "Ne A a B", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik hran má krychle?",
+      "answerOptions": [
+        { "answerText": "8", "isCorrect": false },
+        { "answerText": "12", "isCorrect": true },
+        { "answerText": "6", "isCorrect": false },
+        { "answerText": "10", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Kolik je 1 + 2 + 3 + ... + 20?",
+      "answerOptions": [
+        { "answerText": "200", "isCorrect": false },
+        { "answerText": "210", "isCorrect": true },
+        { "answerText": "220", "isCorrect": false },
+        { "answerText": "190", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které číslo pokračuje v řadě: 1, 4, 9, 16, 25, ...?",
+      "answerOptions": [
+        { "answerText": "30", "isCorrect": false },
+        { "answerText": "36", "isCorrect": true },
+        { "answerText": "40", "isCorrect": false },
+        { "answerText": "49", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Pokud A je nepravda a B je nepravda, jaká je hodnota „A nebo B“?",
+      "answerOptions": [
+        { "answerText": "Pravda", "isCorrect": false },
+        { "answerText": "Nepravda", "isCorrect": true },
+        { "answerText": "Nelze určit", "isCorrect": false },
+        { "answerText": "Záleží na C", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Všichni studenti ve třídě mají alespoň jeden sešit. Petr je student ve třídě. Co z toho plyne?",
+      "answerOptions": [
+        { "answerText": "Petr má alespoň jeden sešit", "isCorrect": true },
+        { "answerText": "Petr má dva sešity", "isCorrect": false },
+        { "answerText": "Petr nemá žádný sešit", "isCorrect": false },
+        { "answerText": "Nelze určit nic", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které tvrzení je tautologie?",
+      "answerOptions": [
+        { "answerText": "A a ne A", "isCorrect": false },
+        { "answerText": "A nebo ne A", "isCorrect": true },
+        { "answerText": "A a B", "isCorrect": false },
+        { "answerText": "A nebo B", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik různých uspořádání (permutací) má trojice písmen A, B, C?",
+      "answerOptions": [
+        { "answerText": "3", "isCorrect": false },
+        { "answerText": "6", "isCorrect": true },
+        { "answerText": "9", "isCorrect": false },
+        { "answerText": "12", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaké je nejmenší kladné celé číslo, které je dělitelné 2, 3 i 5?",
+      "answerOptions": [
+        { "answerText": "15", "isCorrect": false },
+        { "answerText": "30", "isCorrect": true },
+        { "answerText": "60", "isCorrect": false },
+        { "answerText": "10", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Pokud „všechna A jsou B“ a „některá B jsou C“, co platí o A a C?",
+      "answerOptions": [
+        { "answerText": "Některá A jsou C", "isCorrect": false },
+        { "answerText": "Nelze nutně určit vztah A a C", "isCorrect": true },
+        { "answerText": "Žádné A není C", "isCorrect": false },
+        { "answerText": "Všechna A jsou C", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který graf má nejvíce hran?",
+      "answerOptions": [
+        { "answerText": "Strom s 5 vrcholy", "isCorrect": false },
+        { "answerText": "Úplný graf K5", "isCorrect": true },
+        { "answerText": "Cyklus s 5 vrcholy", "isCorrect": false },
+        { "answerText": "Cesta s 5 vrcholy", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které tvrzení je logicky ekvivalentní „A právě tehdy, když B“?",
+      "answerOptions": [
+        { "answerText": "A nebo B", "isCorrect": false },
+        { "answerText": "(A a B) nebo (ne A a ne B)", "isCorrect": true },
+        { "answerText": "A a ne B", "isCorrect": false },
+        { "answerText": "Ne A nebo B", "isCorrect": false }
+      ]
+    }
+  ]
+}

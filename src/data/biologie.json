@@ -1,0 +1,287 @@
+{
+  "nizka": [
+    {
+      "questionText": "Který orgán pumpuje krev v těle?",
+      "answerOptions": [
+        { "answerText": "Plíce", "isCorrect": false },
+        { "answerText": "Srdce", "isCorrect": true },
+        { "answerText": "Játra", "isCorrect": false },
+        { "answerText": "Ledviny", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá zelené barvivo v rostlinách?",
+      "answerOptions": [
+        { "answerText": "Melanin", "isCorrect": false },
+        { "answerText": "Chlorofyl", "isCorrect": true },
+        { "answerText": "Karoten", "isCorrect": false },
+        { "answerText": "Hemoglobin", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Které zvíře je největším savcem na světě?",
+      "answerOptions": [
+        { "answerText": "Slon africký", "isCorrect": false },
+        { "answerText": "Plejtvák obrovský", "isCorrect": true },
+        { "answerText": "Žralok velrybí", "isCorrect": false },
+        { "answerText": "Hroch", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik chromozomů má zdravá lidská buňka?",
+      "answerOptions": [
+        { "answerText": "44", "isCorrect": false },
+        { "answerText": "46", "isCorrect": true },
+        { "answerText": "48", "isCorrect": false },
+        { "answerText": "50", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který vitamín získáváme primárně ze slunečního záření?",
+      "answerOptions": [
+        { "answerText": "Vitamín A", "isCorrect": false },
+        { "answerText": "Vitamín C", "isCorrect": false },
+        { "answerText": "Vitamín D", "isCorrect": true },
+        { "answerText": "Vitamín B12", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je základní stavební jednotka všech živých organismů?",
+      "answerOptions": [
+        { "answerText": "Atom", "isCorrect": false },
+        { "answerText": "Buňka", "isCorrect": true },
+        { "answerText": "Orgán", "isCorrect": false },
+        { "answerText": "Tkáň", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která část oka reaguje na světlo?",
+      "answerOptions": [
+        { "answerText": "Rohovka", "isCorrect": false },
+        { "answerText": "Sítnice", "isCorrect": true },
+        { "answerText": "Duhovka", "isCorrect": false },
+        { "answerText": "Čočka", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která krevní skupina je univerzálním dárcem?",
+      "answerOptions": [
+        { "answerText": "A", "isCorrect": false },
+        { "answerText": "B", "isCorrect": false },
+        { "answerText": "AB", "isCorrect": false },
+        { "answerText": "0", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Jak se jmenuje nejdelší kost v lidském těle?",
+      "answerOptions": [
+        { "answerText": "Stehenní kost", "isCorrect": true },
+        { "answerText": "Pažní kost", "isCorrect": false },
+        { "answerText": "Holenní kost", "isCorrect": false },
+        { "answerText": "Lýtková kost", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo je autorem evoluční teorie?",
+      "answerOptions": [
+        { "answerText": "Louis Pasteur", "isCorrect": false },
+        { "answerText": "Charles Darwin", "isCorrect": true },
+        { "answerText": "Gregor Mendel", "isCorrect": false },
+        { "answerText": "Carl Linnaeus", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Jak se nazývá proces dělení buněk u běžných tkání?",
+      "answerOptions": [
+        { "answerText": "Meióza", "isCorrect": false },
+        { "answerText": "Mitóza", "isCorrect": true },
+        { "answerText": "Osmóza", "isCorrect": false },
+        { "answerText": "Fagocytóza", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který orgán v lidském těle produkuje inzulín?",
+      "answerOptions": [
+        { "answerText": "Slezina", "isCorrect": false },
+        { "answerText": "Slinivka břišní", "isCorrect": true },
+        { "answerText": "Žlučník", "isCorrect": false },
+        { "answerText": "Ledviny", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je funkce mitochondrií v buňce?",
+      "answerOptions": [
+        { "answerText": "Výroba bílkovin", "isCorrect": false },
+        {
+          "answerText": "Buněčné dýchání a výroba energie (ATP)",
+          "isCorrect": true
+        },
+        { "answerText": "Skladování vody", "isCorrect": false },
+        { "answerText": "Ochrana jádra", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která část mozku je zodpovědná za rovnováhu a koordinaci?",
+      "answerOptions": [
+        { "answerText": "Mozeček", "isCorrect": true },
+        { "answerText": "Prodloužená mícha", "isCorrect": false },
+        { "answerText": "Mezimozek", "isCorrect": false },
+        { "answerText": "Koncový mozek", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá vztah dvou organismů, který je pro oba výhodný?",
+      "answerOptions": [
+        { "answerText": "Parazitismus", "isCorrect": false },
+        { "answerText": "Symbióza", "isCorrect": true },
+        { "answerText": "Predace", "isCorrect": false },
+        { "answerText": "Komensálismus", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co transportují červené krvinky (erytrocyty)?",
+      "answerOptions": [
+        { "answerText": "Hormony", "isCorrect": false },
+        { "answerText": "Kyslík", "isCorrect": true },
+        { "answerText": "Odpadní látky", "isCorrect": false },
+        { "answerText": "Živiny", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který plyn rostliny uvolňují během fotosyntézy?",
+      "answerOptions": [
+        { "answerText": "Oxid uhličitý", "isCorrect": false },
+        { "answerText": "Kyslík", "isCorrect": true },
+        { "answerText": "Dusík", "isCorrect": false },
+        { "answerText": "Metan", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kolik párů žeber má průměrný člověk?",
+      "answerOptions": [
+        { "answerText": "10", "isCorrect": false },
+        { "answerText": "12", "isCorrect": true },
+        { "answerText": "14", "isCorrect": false },
+        { "answerText": "8", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo objevil penicilin?",
+      "answerOptions": [
+        { "answerText": "Robert Koch", "isCorrect": false },
+        { "answerText": "Alexander Fleming", "isCorrect": true },
+        { "answerText": "Edward Jenner", "isCorrect": false },
+        { "answerText": "Jonas Salk", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je zkratka pro deoxyribonukleovou kyselinu?",
+      "answerOptions": [
+        { "answerText": "RNA", "isCorrect": false },
+        { "answerText": "DNA", "isCorrect": true },
+        { "answerText": "ATP", "isCorrect": false },
+        { "answerText": "NAD", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Kde probíhá v buňce Krebsův cyklus?",
+      "answerOptions": [
+        { "answerText": "V cytoplazmě", "isCorrect": false },
+        { "answerText": "V matrix mitochondrií", "isCorrect": true },
+        { "answerText": "V Golgiho aparátu", "isCorrect": false },
+        {
+          "answerText": "V drsném endoplazmatickém retikulu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Který neurotransmiter je primárně spojen s pocitem odměny a štěstí?",
+      "answerOptions": [
+        { "answerText": "Serotonin", "isCorrect": false },
+        { "answerText": "Dopamin", "isCorrect": true },
+        { "answerText": "GABA", "isCorrect": false },
+        { "answerText": "Acetylcholin", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá enzym v lidských slinách, který štěpí škroby?",
+      "answerOptions": [
+        { "answerText": "Pepsin", "isCorrect": false },
+        { "answerText": "Amyláza (Ptyalin)", "isCorrect": true },
+        { "answerText": "Trypsin", "isCorrect": false },
+        { "answerText": "Lipáza", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co označuje pojem 'homeostáza'?",
+      "answerOptions": [
+        { "answerText": "Proces mutace genů", "isCorrect": false },
+        {
+          "answerText": "Udržování stálosti vnitřního prostředí organismu",
+          "isCorrect": true
+        },
+        { "answerText": "Zastavení krvácení", "isCorrect": false },
+        { "answerText": "Rozpad buněčné stěny", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je funkce ribozomů?",
+      "answerOptions": [
+        { "answerText": "Syntéza lipidů", "isCorrect": false },
+        { "answerText": "Syntéza bílkovin", "isCorrect": true },
+        { "answerText": "Rozklad toxinů", "isCorrect": false },
+        { "answerText": "Tvorba ATP", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která z těchto bází se nenachází v DNA, ale nahrazuje thymin v RNA?",
+      "answerOptions": [
+        { "answerText": "Adenin", "isCorrect": false },
+        { "answerText": "Uracil", "isCorrect": true },
+        { "answerText": "Cytosin", "isCorrect": false },
+        { "answerText": "Guanin", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá alternativní forma genu umístěná na stejném místě chromozomu?",
+      "answerOptions": [
+        { "answerText": "Lokus", "isCorrect": false },
+        { "answerText": "Alela", "isCorrect": true },
+        { "answerText": "Fenotyp", "isCorrect": false },
+        { "answerText": "Genotyp", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kde se v těle nacházejí Langerhansovy ostrůvky?",
+      "answerOptions": [
+        { "answerText": "V játrech", "isCorrect": false },
+        { "answerText": "Ve slinivce břišní", "isCorrect": true },
+        { "answerText": "V kůře nadledvin", "isCorrect": false },
+        { "answerText": "V mozkovém kmeni", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která molekula přenáší genetickou informaci z DNA k ribozomům?",
+      "answerOptions": [
+        { "answerText": "tRNA", "isCorrect": false },
+        { "answerText": "mRNA", "isCorrect": true },
+        { "answerText": "rRNA", "isCorrect": false },
+        { "answerText": "ATP", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký typ vazby spojuje aminokyseliny v bílkovinném řetězci?",
+      "answerOptions": [
+        { "answerText": "Iontová vazba", "isCorrect": false },
+        { "answerText": "Peptidová vazba", "isCorrect": true },
+        { "answerText": "Vodíkový můstek", "isCorrect": false },
+        { "answerText": "Kovová vazba", "isCorrect": false }
+      ]
+    }
+  ]
+}

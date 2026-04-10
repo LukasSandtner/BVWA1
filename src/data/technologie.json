@@ -1,0 +1,302 @@
+{
+  "nizka": [
+    {
+      "questionText": "Kdo je považován za zakladatele společnosti Microsoft?",
+      "answerOptions": [
+        { "answerText": "Steve Jobs", "isCorrect": false },
+        { "answerText": "Bill Gates", "isCorrect": true },
+        { "answerText": "Mark Zuckerberg", "isCorrect": false },
+        { "answerText": "Elon Musk", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co znamená zkratka WWW?",
+      "answerOptions": [
+        { "answerText": "World Wide Web", "isCorrect": true },
+        { "answerText": "World Web Wide", "isCorrect": false },
+        { "answerText": "Wide World Web", "isCorrect": false },
+        { "answerText": "Web World Wide", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který programovací jazyk je často používán pro tvorbu webových stránek společně s HTML a CSS?",
+      "answerOptions": [
+        { "answerText": "Python", "isCorrect": false },
+        { "answerText": "C++", "isCorrect": false },
+        { "answerText": "JavaScript", "isCorrect": true },
+        { "answerText": "Java", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký operační systém vyvíjí společnost Apple pro své telefony?",
+      "answerOptions": [
+        { "answerText": "Android", "isCorrect": false },
+        { "answerText": "Windows Mobile", "isCorrect": false },
+        { "answerText": "iOS", "isCorrect": true },
+        { "answerText": "Symbian", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která společnost vyrábí procesory řady Ryzen?",
+      "answerOptions": [
+        { "answerText": "Intel", "isCorrect": false },
+        { "answerText": "AMD", "isCorrect": true },
+        { "answerText": "Nvidia", "isCorrect": false },
+        { "answerText": "Qualcomm", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co měří jednotka Hertz (Hz) v počítačích?",
+      "answerOptions": [
+        { "answerText": "Kapacitu disku", "isCorrect": false },
+        { "answerText": "Rychlost připojení", "isCorrect": false },
+        { "answerText": "Frekvenci procesoru", "isCorrect": true },
+        { "answerText": "Velikost RAM", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která kryptoměna byla vytvořena jako první?",
+      "answerOptions": [
+        { "answerText": "Ethereum", "isCorrect": false },
+        { "answerText": "Bitcoin", "isCorrect": true },
+        { "answerText": "Litecoin", "isCorrect": false },
+        { "answerText": "Dogecoin", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jak se nazývá hlavní deska uvnitř počítače?",
+      "answerOptions": [
+        { "answerText": "Grafická deska", "isCorrect": false },
+        { "answerText": "Základní deska (Motherboard)", "isCorrect": true },
+        { "answerText": "Paměťová deska", "isCorrect": false },
+        { "answerText": "Systémová karta", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký byl název prvního umělého satelitu Země?",
+      "answerOptions": [
+        { "answerText": "Apollo 11", "isCorrect": false },
+        { "answerText": "Sputnik 1", "isCorrect": true },
+        { "answerText": "Voyager 1", "isCorrect": false },
+        { "answerText": "Explorer 1", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Zkratka AI v informatice znamená:",
+      "answerOptions": [
+        { "answerText": "Artificial Internet", "isCorrect": false },
+        { "answerText": "Automated Interface", "isCorrect": false },
+        { "answerText": "Artificial Intelligence", "isCorrect": true },
+        { "answerText": "Advanced Informatics", "isCorrect": false }
+      ]
+    }
+  ],
+  "stredni": [
+    {
+      "questionText": "Co znamená zkratka RAM?",
+      "answerOptions": [
+        { "answerText": "Read Access Memory", "isCorrect": false },
+        { "answerText": "Random Access Memory", "isCorrect": true },
+        { "answerText": "Rapid Allocation Memory", "isCorrect": false },
+        { "answerText": "Run Active Memory", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo vytvořil operační systém Linux?",
+      "answerOptions": [
+        { "answerText": "Bill Gates", "isCorrect": false },
+        { "answerText": "Linus Torvalds", "isCorrect": true },
+        { "answerText": "Steve Wozniak", "isCorrect": false },
+        { "answerText": "Dennis Ritchie", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je základní jednotka informace v počítači?",
+      "answerOptions": [
+        { "answerText": "Byte", "isCorrect": false },
+        { "answerText": "Bit", "isCorrect": true },
+        { "answerText": "Pixel", "isCorrect": false },
+        { "answerText": "Hertz", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký port je standardem pro připojení grafických karet k základní desce?",
+      "answerOptions": [
+        { "answerText": "USB", "isCorrect": false },
+        { "answerText": "PCIe", "isCorrect": true },
+        { "answerText": "SATA", "isCorrect": false },
+        { "answerText": "AGP", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co zajišťuje protokol HTTPS (oproti HTTP)?",
+      "answerOptions": [
+        { "answerText": "Rychlejší načítání", "isCorrect": false },
+        { "answerText": "Šifrování dat pro bezpečnost", "isCorrect": true },
+        { "answerText": "Kompresi obrázků", "isCorrect": false },
+        { "answerText": "Filtrování reklam", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Který programovací jazyk je známý pro své použití v umělé inteligenci?",
+      "answerOptions": [
+        { "answerText": "PHP", "isCorrect": false },
+        { "answerText": "Python", "isCorrect": true },
+        { "answerText": "HTML", "isCorrect": false },
+        { "answerText": "Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co znamená pojem 'Open Source'?",
+      "answerOptions": [
+        { "answerText": "Software zdarma ale bez kódu", "isCorrect": false },
+        {
+          "answerText": "Software, jehož zdrojový kód je veřejně dostupný",
+          "isCorrect": true
+        },
+        { "answerText": "Program spuštěný v prohlížeči", "isCorrect": false },
+        { "answerText": "Software pouze pro Windows", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký typ paměti používají SSD disky?",
+      "answerOptions": [
+        { "answerText": "Magnetickou pásku", "isCorrect": false },
+        { "answerText": "NAND Flash paměť", "isCorrect": true },
+        { "answerText": "Optické plotny", "isCorrect": false },
+        { "answerText": "SRAM", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co dělá příkaz 'ping' v příkazovém řádku?",
+      "answerOptions": [
+        { "answerText": "Maže soubory", "isCorrect": false },
+        { "answerText": "Ověřuje spojení s IP adresou", "isCorrect": true },
+        { "answerText": "Zavírá okno", "isCorrect": false },
+        { "answerText": "Formátuje disk", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Která společnost stojí za vývojem Androidu?",
+      "answerOptions": [
+        { "answerText": "Microsoft", "isCorrect": false },
+        { "answerText": "Google", "isCorrect": true },
+        { "answerText": "Apple", "isCorrect": false },
+        { "answerText": "Samsung", "isCorrect": false }
+      ]
+    }
+  ],
+  "vysoka": [
+    {
+      "questionText": "Který z protokolů běží na síťové vrstvě (Network layer) modelu OSI?",
+      "answerOptions": [
+        { "answerText": "HTTP", "isCorrect": false },
+        { "answerText": "IP", "isCorrect": true },
+        { "answerText": "TCP", "isCorrect": false },
+        { "answerText": "MAC", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co přesně vyjadřuje Moorův zákon?",
+      "answerOptions": [
+        {
+          "answerText": "Počet tranzistorů v obvodu se zdvojnásobí každé 2 roky",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Cena počítačů klesá o polovinu každý rok",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Rychlost internetu roste exponenciálně",
+          "isCorrect": false
+        },
+        { "answerText": "Software zpomaluje hardware", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to 'Turingův stroj'?",
+      "answerOptions": [
+        { "answerText": "První mechanický počítač", "isCorrect": false },
+        {
+          "answerText": "Teoretický model abstrakce počítače",
+          "isCorrect": true
+        },
+        { "answerText": "Stroj na luštění Enigmy", "isCorrect": false },
+        { "answerText": "První robot", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "V jakém roce byl vydán první standard jazyka C?",
+      "answerOptions": [
+        { "answerText": "1965", "isCorrect": false },
+        { "answerText": "1972", "isCorrect": true },
+        { "answerText": "1985", "isCorrect": false },
+        { "answerText": "1990", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co je to 'Big O notation' (O notace) v informatice?",
+      "answerOptions": [
+        { "answerText": "Způsob označování chyb", "isCorrect": false },
+        {
+          "answerText": "Popis asymptotické časové složitosti algoritmů",
+          "isCorrect": true
+        },
+        { "answerText": "Velikost databázových souborů", "isCorrect": false },
+        {
+          "answerText": "Rychlost přenosu v optickém vlákně",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Která z těchto databází je typicky NoSQL?",
+      "answerOptions": [
+        { "answerText": "PostgreSQL", "isCorrect": false },
+        { "answerText": "MongoDB", "isCorrect": true },
+        { "answerText": "MySQL", "isCorrect": false },
+        { "answerText": "Oracle", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaký algoritmus používá Bitcoin pro svůj Proof of Work?",
+      "answerOptions": [
+        { "answerText": "Scrypt", "isCorrect": false },
+        { "answerText": "SHA-256", "isCorrect": true },
+        { "answerText": "Ethash", "isCorrect": false },
+        { "answerText": "MD5", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Jaká je adresa 'localhost' v protokolu IPv4?",
+      "answerOptions": [
+        { "answerText": "192.168.1.1", "isCorrect": false },
+        { "answerText": "127.0.0.1", "isCorrect": true },
+        { "answerText": "0.0.0.0", "isCorrect": false },
+        { "answerText": "255.255.255.255", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Co znamená princip SOLID v objektově orientovaném programování?",
+      "answerOptions": [
+        {
+          "answerText": "Pět základních principů pro čistší a udržitelnější kód",
+          "isCorrect": true
+        },
+        { "answerText": "Typ bezpečné kompilace", "isCorrect": false },
+        { "answerText": "Architektura databází", "isCorrect": false },
+        { "answerText": "Algoritmus pro kompresi", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Kdo vytvořil World Wide Web (WWW)?",
+      "answerOptions": [
+        { "answerText": "Vint Cerf", "isCorrect": false },
+        { "answerText": "Tim Berners-Lee", "isCorrect": true },
+        { "answerText": "Marc Andreessen", "isCorrect": false },
+        { "answerText": "Alan Turing", "isCorrect": false }
+      ]
+    }
+  ]
+}

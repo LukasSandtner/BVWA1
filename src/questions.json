@@ -1,0 +1,92 @@
+[
+  {
+    "questionText": "Která planeta naší sluneční soustavy je největší?",
+    "answerOptions": [
+      { "answerText": "Země", "isCorrect": false },
+      { "answerText": "Saturn", "isCorrect": false },
+      { "answerText": "Jupiter", "isCorrect": true },
+      { "answerText": "Mars", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Jaké je hlavní město Austrálie?",
+    "answerOptions": [
+      { "answerText": "Sydney", "isCorrect": false },
+      { "answerText": "Melbourne", "isCorrect": false },
+      { "answerText": "Perth", "isCorrect": false },
+      { "answerText": "Canberra", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "Kdo namaloval slavný obraz Mona Lisa?",
+    "answerOptions": [
+      { "answerText": "Vincent van Gogh", "isCorrect": false },
+      { "answerText": "Leonardo da Vinci", "isCorrect": true },
+      { "answerText": "Pablo Picasso", "isCorrect": false },
+      { "answerText": "Claude Monet", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Jaká je chemická značka pro zlato?",
+    "answerOptions": [
+      { "answerText": "Ag", "isCorrect": false },
+      { "answerText": "Au", "isCorrect": true },
+      { "answerText": "Fe", "isCorrect": false },
+      { "answerText": "Pb", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Který savec je nejrychlejší na zemi?",
+    "answerOptions": [
+      { "answerText": "Lev", "isCorrect": false },
+      { "answerText": "Gepard", "isCorrect": true },
+      { "answerText": "Antilopa", "isCorrect": false },
+      { "answerText": "Kůň", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Ve kterém roce začala druhá světová válka?",
+    "answerOptions": [
+      { "answerText": "1914", "isCorrect": false },
+      { "answerText": "1939", "isCorrect": true },
+      { "answerText": "1945", "isCorrect": false },
+      { "answerText": "1938", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Kdo je autorem symfonické básně Vltava?",
+    "answerOptions": [
+      { "answerText": "Antonín Dvořák", "isCorrect": false },
+      { "answerText": "Bedřich Smetana", "isCorrect": true },
+      { "answerText": "Leoš Janáček", "isCorrect": false },
+      { "answerText": "Bohuslav Martinů", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Jaký plyn tvoří většinu zemské atmosféry?",
+    "answerOptions": [
+      { "answerText": "Kyslík", "isCorrect": false },
+      { "answerText": "Oxid uhličitý", "isCorrect": false },
+      { "answerText": "Dusík", "isCorrect": true },
+      { "answerText": "Vodík", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Kdo byl prvním člověkem ve vesmíru?",
+    "answerOptions": [
+      { "answerText": "Neil Armstrong", "isCorrect": false },
+      { "answerText": "Jurij Gagarin", "isCorrect": true },
+      { "answerText": "Buzz Aldrin", "isCorrect": false },
+      { "answerText": "Vladimír Remek", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Která řeka je považována za nejdelší na světě?",
+    "answerOptions": [
+      { "answerText": "Nil", "isCorrect": true },
+      { "answerText": "Amazonka", "isCorrect": false },
+      { "answerText": "Jang-c'-ťiang", "isCorrect": false },
+      { "answerText": "Mississippi", "isCorrect": false }
+    ]
+  }
+]
