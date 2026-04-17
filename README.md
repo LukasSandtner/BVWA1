@@ -13,7 +13,6 @@ Aplikace navíc obsahuje interaktivní souhlas s ukládáním tzv. "cookies" a p
 * Ukládání postupu: Zapamatování nejvyššího skóre pro konkrétní kategorii a obtížnost pomocí document.cookie.
 * GDPR & ePrivacy: Implementován vtipný a transparentní souhlas s ukládáním cookies.
 * Okamžitá zpětná vazba: Vizuální odlišení správných a špatných odpovědí (zelené/červené orámování).
-* Přístupnost (A11y): Využití ARIA atributů (např. aria-live) pro čtečky obrazovky a sémantické HTML.
 
 ## Použité technologie
 Při vývoji byl kladen důraz na moderní přístup k tvorbě uživatelských rozhraní a oddělení datové vrstvy od aplikační logiky.
